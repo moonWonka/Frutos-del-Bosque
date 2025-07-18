@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Serif%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+    <title>Sabores del Bosque Ltda.</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+<body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#fcf9f8] group/design-root overflow-x-hidden" style='font-family: "Noto Serif", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f3ebe7] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#1b120e]">
+            <div class="size-10">
+              <img src="static/images/Gemini_Generated_Image_l2v1ctl2v1ctl2v1-removebg-preview.png" alt="Sabores del Bosque Logo" class="w-full h-full object-contain">
+            </div>
+            <h2 class="text-[#1b120e] text-lg font-bold leading-tight tracking-[-0.015em]">Sabores del Bosque Ltda.</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#1b120e] text-sm font-medium leading-normal" href="#">Inicio</a>
+              <a class="text-[#1b120e] text-sm font-medium leading-normal" href="#productos">Productos</a>
+              <a class="text-[#1b120e] text-sm font-medium leading-normal" href="#contacto">Contacto</a>
+            </div>
+            <button
+              id="explorar-btn"
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#f3ebe7] text-[#1b120e] text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Explorar Productos</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-start justify-end px-4 pb-10 @[480px]:px-10"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAcmTFvV9J_DGiw6sjcwfHN0kiwAyDANi6g-z65SNEekF0ViXk6BBSvFt2nyquv6cu3PEe9VMHzQsYBbXRTEueeDjZBQxWrgQesHqb5ITvTurGUsDwDVLCKMWBIilw53AAXUNX94yTsxdUBNYWai06oV_YUTjlTvHbd9ScCaNM0XMJm6VeCWLuAWoSmTQozBt33vjtoms8NrS5kK1k27rE8kWWixutkjfCCVQkl2gWKN3Dyx69PImZHLAkDzvAC2u0BOzHPJkRub4RG");'
+                >
+                  <div class="flex flex-col gap-2 text-left">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Sabores del Bosque: Gourmet Delights from Southern Chile
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Artisanal tradition and authentic flavors straight from Valdivia.
+                    </h2>
+                  </div>
+                  <button
+                    id="catalogo-btn"
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#ce5316] text-[#fcf9f8] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Ver Catálogo</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 id="productos" class="text-[#1b120e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Nuestros Productos Destacados</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDx_RVK3NQ_5ek8_GIlxkl-6vcffD1No6-oQ_Oqg1CjDwAUBIk5Bs-8kCu6PJZJs7XO3Sc5MgMdQ6mNSkdrMVY2U7rgF7V_T6eTSKXaop4GT2GTouZC6Qr0LSYFmvFv0zyIR4p-w4LYfEW3_IvtYDkddwOA2mtO3YY7rQAQ7rh5BGv-aG4gIEkuLQf0q3faDMguwt6v_Kuqss2Y_25e1jnmJgVRqMilcCIex6laGc7TTxVh8gV8lOTI18lo3RoIsCCoOChY7z5QZvod");'
+                ></div>
+                <div>
+                  <p class="text-[#1b120e] text-base font-medium leading-normal">Castañas en almíbar</p>
+                  <p class="text-[#97674e] text-sm font-normal leading-normal">$3.957</p>
+                  <p class="text-[#97674e] text-xs font-normal leading-normal">Conservas - Stock: 25</p>
+                  <button class="buy-btn mt-2 px-3 py-1 bg-[#ce5316] text-white text-xs rounded" data-product-id="1" data-product="Castañas en almíbar" data-price="3957">
+                    Comprar
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBOk7gHFl5HAy4Ic0AJe-ICQt1HFqv5s70IBJQgsYCJ9PDSPeVd3yF3c4lthvDqwZ3lB4KdFaQSOYSjbuOFPrtulr14bDUSGnZN5ZOUnahsdvSuvhs4sDUANgaTcIC_kQUH-g9fcfRdz3PPCf-6XEf2LJszSArpkOisqjWikjwB1H4jzAm93-KfN4IPHEI26Mlz7ntlgq3cRvtLrqMo3EiKoqjWvrWEDPhjr2Sj_oPEmpmO_cMCffhXTaLzh8RTOsd0s0uamKh79tRu");'
+                ></div>
+                <div>
+                  <p class="text-[#1b120e] text-base font-medium leading-normal">Mermelada de frambuesa</p>
+                  <p class="text-[#97674e] text-sm font-normal leading-normal">$3.225</p>
+                  <p class="text-[#97674e] text-xs font-normal leading-normal">Mermeladas - Stock: 37</p>
+                  <button class="buy-btn mt-2 px-3 py-1 bg-[#ce5316] text-white text-xs rounded" data-product-id="3" data-product="Mermelada de frambuesa" data-price="3225">
+                    Comprar
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAf8F9CbFUA-8VlQC4ZNtW1P4196ebAMpsBDWB3u4GDv5YOprhZSehut5mFS4D6qE8nMZcYltI5h8SdM0-5XLBe4BAcoXsB2Kk0mtkPFiwdMM1-Jy4aAVVGBPAb1ib4AnXh0YFLTReZk9G6qtumUum8v36WsSEnJ1zr14kDDjTb8AvyFLsZqvtpJSwjQSqQmxBtktA9Rla6-lxbeFCAn2FIR6uC21o7tTXY32ty-MkGGgjOh7F1siprnOw3gKu5KA58n0r4H8Z2Vn25");'
+                ></div>
+                <div>
+                  <p class="text-[#1b120e] text-base font-medium leading-normal">Miel de ulmo 500 g</p>
+                  <p class="text-[#97674e] text-sm font-normal leading-normal">$5.696</p>
+                  <p class="text-[#97674e] text-xs font-normal leading-normal">Mieles - Stock: 13</p>
+                  <button class="buy-btn mt-2 px-3 py-1 bg-[#ce5316] text-white text-xs rounded" data-product-id="4" data-product="Miel de ulmo 500 g" data-price="5696">
+                    Comprar
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAf8F9CbFUA-8VlQC4ZNtW1P4196ebAMpsBDWB3u4GDv5YOprhZSehut5mFS4D6qE8nMZcYltI5h8SdM0-5XLBe4BAcoXsB2Kk0mtkPFiwdMM1-Jy4aAVVGBPAb1ib4AnXh0YFLTReZk9G6qtumUum8v36WsSEnJ1zr14kDDjTb8AvyFLsZqvtpJSwjQSqQmxBtktA9Rla6-lxbeFCAn2FIR6uC21o7tTXY32ty-MkGGgjOh7F1siprnOw3gKu5KA58n0r4H8Z2Vn25");'
+                ></div>
+                <div>
+                  <p class="text-[#1b120e] text-base font-medium leading-normal">Avellanas tostadas 200 g</p>
+                  <p class="text-[#97674e] text-sm font-normal leading-normal">$3.589</p>
+                  <p class="text-[#97674e] text-xs font-normal leading-normal">Snacks - Stock: 9</p>
+                  <button class="buy-btn mt-2 px-3 py-1 bg-[#ce5316] text-white text-xs rounded" data-product-id="5" data-product="Avellanas tostadas 200 g" data-price="3589">
+                    Comprar
+                  </button>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAf8F9CbFUA-8VlQC4ZNtW1P4196ebAMpsBDWB3u4GDv5YOprhZSehut5mFS4D6qE8nMZcYltI5h8SdM0-5XLBe4BAcoXsB2Kk0mtkPFiwdMM1-Jy4aAVVGBPAb1ib4AnXh0YFLTReZk9G6qtumUum8v36WsSEnJ1zr14kDDjTb8AvyFLsZqvtpJSwjQSqQmxBtktA9Rla6-lxbeFCAn2FIR6uC21o7tTXY32ty-MkGGgjOh7F1siprnOw3gKu5KA58n0r4H8Z2Vn25");'
+                ></div>
+                <div>
+                  <p class="text-[#1b120e] text-base font-medium leading-normal">Mermelada de calafate</p>
+                  <p class="text-[#97674e] text-sm font-normal leading-normal">$3.114</p>
+                  <p class="text-[#97674e] text-xs font-normal leading-normal">Mermeladas - Stock: 34</p>
+                  <button class="buy-btn mt-2 px-3 py-1 bg-[#ce5316] text-white text-xs rounded" data-product-id="21" data-product="Mermelada de calafate" data-price="3114">
+                    Comprar
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#1b120e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our History and Passion</h2>
+            <p class="text-[#1b120e] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              A family business founded by Doña Elena over 15 years ago, dedicated to artisanal gourmet products with local ingredients from southern Chile. We emphasize quality
+              and customer relationships.
+            </p>
+          </div>
+        </div>
+        <footer id="contacto" class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#97674e] text-base font-normal leading-normal min-w-40" href="#">Valdivia, Chile</a>
+                <a class="text-[#97674e] text-base font-normal leading-normal min-w-40" href="mailto:info@saboresdelbosque.cl">info@saboresdelbosque.cl</a>
+                <a class="text-[#97674e] text-base font-normal leading-normal min-w-40" href="tel:+56123456789">+56 123 456 789</a>
+              </div>
+              <div class="flex flex-wrap justify-center gap-4">
+                <a href="#">
+                  <div class="text-[#97674e]" data-icon="InstagramLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="text-[#97674e]" data-icon="FacebookLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <p class="text-[#97674e] text-base font-normal leading-normal">© 2024 Sabores del Bosque Ltda.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Configuración actualizada para Google Apps Script -->
+    <script src="config-gas.js"></script>
+    <!-- Sistema actualizado con Google Apps Script -->
+    <script src="js/inventory-gas.js"></script>
+</body>
+</html>

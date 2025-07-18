@@ -1,0 +1,101 @@
+ID,Producto,Categoría,Stock_actual,Stock_mínimo,Precio_unitario_CLP,Fecha_último_ingreso,Fecha_última_salida
+1,Castañas en almíbar,Conservas,25,8,3957,2025-07-18,2025-07-18
+2,Conserva de piñones,Conservas,3,3,3691,2025-06-14,2025-07-18
+3,Mermelada de frambuesa,Mermeladas,37,11,3225,2025-06-29,2025-07-17
+4,Miel de ulmo 500 g,Mieles,13,11,5696,2025-06-18,2025-06-22
+5,Avellanas tostadas 200 g,Snacks,9,6,3589,2025-06-07,2025-06-29
+6,Aceite de murta 250 ml,Aceites,5,3,8098,2025-06-08,2025-07-02
+7,Chutney de manzana,Conservas,26,14,3893,2025-06-05,2025-06-07
+8,Avellanas tostadas 200 g,Snacks,8,6,3303,2025-06-25,2025-07-03
+9,Tomates deshidratados 80 g,Deshidratados,13,10,4563,2025-06-14,2025-07-01
+10,Peras al vino,Conservas,37,8,3834,2025-06-30,2025-07-12
+11,Miel de ulmo 500 g,Mieles,23,5,5469,2025-06-03,2025-06-23
+12,Pebre de avellana 150 g,Salsas,7,5,4380,2025-06-21,2025-06-27
+13,Tomates deshidratados 80 g,Deshidratados,32,7,4471,2025-06-09,2025-06-24
+14,Miel de tineo 500 g,Mieles,40,11,5741,2025-06-15,2025-06-23
+15,Mix de setas deshidratadas 50 g,Deshidratados,6,4,4356,2025-07-11,2025-07-13
+16,Salsa de merkén 150 g,Salsas,27,11,4410,2025-06-30,2025-07-16
+17,Miel de ulmo 500 g,Mieles,10,10,6099,2025-06-18,2025-07-12
+18,Aceite de avellana 250 ml,Aceites,21,11,7323,2025-06-30,2025-06-30
+19,Miel de ulmo 500 g,Mieles,35,6,6280,2025-06-20,2025-07-16
+20,Frutos secos mix 250 g,Snacks,26,7,3752,2025-07-04,2025-07-18
+21,Mermelada de calafate,Mermeladas,34,5,3114,2025-06-24,2025-07-03
+22,Frutos secos mix 250 g,Snacks,18,14,3280,2025-06-06,2025-07-07
+23,Peras al vino,Conservas,11,9,4473,2025-07-06,2025-07-08
+24,Miel de tineo 500 g,Mieles,16,13,6494,2025-06-13,2025-07-02
+25,Pebre de avellana 150 g,Salsas,31,13,4262,2025-06-08,2025-06-23
+26,Frutos secos mix 250 g,Snacks,24,5,3802,2025-07-06,2025-07-09
+27,Frutos secos mix 250 g,Snacks,7,5,3260,2025-06-15,2025-06-19
+28,Mermelada de calafate,Mermeladas,7,5,3243,2025-06-18,2025-07-09
+29,Mix de setas deshidratadas 50 g,Deshidratados,37,7,4940,2025-07-07,2025-07-16
+30,Mix de setas deshidratadas 50 g,Deshidratados,33,11,4394,2025-06-07,2025-06-13
+31,Pebre de avellana 150 g,Salsas,30,11,4278,2025-06-04,2025-07-17
+32,Castañas en almíbar,Conservas,28,10,3723,2025-06-16,2025-06-28
+33,Avellanas tostadas 200 g,Snacks,11,9,3387,2025-06-18,2025-07-02
+34,Frutos secos mix 250 g,Snacks,31,13,3300,2025-06-04,2025-07-15
+35,Mermelada de murta,Mermeladas,18,7,3416,2025-07-02,2025-07-17
+36,Avellanas tostadas 200 g,Snacks,6,4,3588,2025-06-01,2025-06-25
+37,Miel de tineo 500 g,Mieles,21,11,6426,2025-07-06,2025-07-16
+38,Mix de setas deshidratadas 50 g,Deshidratados,15,9,4422,2025-06-04,2025-07-11
+39,Mermelada de calafate,Mermeladas,6,5,3598,2025-07-01,2025-07-17
+40,Infusión de boldo (20 bolsas),Infusiones,35,6,2690,2025-06-05,2025-07-13
+41,Peras al vino,Conservas,28,6,4666,2025-06-16,2025-06-18
+42,Conserva de piñones,Conservas,40,14,4570,2025-06-21,2025-06-29
+43,Avellanas tostadas 200 g,Snacks,18,9,3605,2025-06-09,2025-06-28
+44,Tomates deshidratados 80 g,Deshidratados,7,5,4669,2025-07-10,2025-07-11
+45,Peras al vino,Conservas,35,9,3771,2025-06-23,2025-06-25
+46,Avellanas tostadas 200 g,Snacks,21,7,3648,2025-07-05,2025-07-16
+47,Miel de ulmo 500 g,Mieles,38,9,6358,2025-06-07,2025-06-15
+48,Miel de ulmo 500 g,Mieles,9,7,5318,2025-06-18,2025-06-27
+49,Avellanas tostadas 200 g,Snacks,16,15,3849,2025-06-17,2025-07-18
+50,Miel de ulmo 500 g,Mieles,8,6,5867,2025-06-18,2025-06-19
+51,Mermelada de calafate,Mermeladas,11,9,3268,2025-06-11,2025-07-09
+52,Salsa de merkén 150 g,Salsas,10,6,4507,2025-06-10,2025-07-14
+53,Mermelada de calafate,Mermeladas,40,13,3151,2025-06-28,2025-07-02
+54,Mermelada de calafate,Mermeladas,26,5,3366,2025-06-14,2025-06-29
+55,Chutney de manzana,Conservas,38,11,4771,2025-06-10,2025-06-25
+56,Infusión de boldo (20 bolsas),Infusiones,29,5,2683,2025-06-22,2025-07-17
+57,Salsa de merkén 150 g,Salsas,20,7,4518,2025-06-07,2025-07-01
+58,Mermelada de mora,Mermeladas,17,8,3471,2025-06-23,2025-07-02
+59,Frutos secos mix 250 g,Snacks,4,3,3397,2025-06-26,2025-07-06
+60,Miel de ulmo 500 g,Mieles,20,10,6313,2025-07-03,2025-07-15
+61,Aceite de avellana 250 ml,Aceites,10,9,7365,2025-07-08,2025-07-12
+62,Mermelada de murta,Mermeladas,30,10,3321,2025-06-28,2025-07-17
+63,Conserva de piñones,Conservas,39,8,4021,2025-06-03,2025-07-18
+64,Salsa de merkén 150 g,Salsas,36,13,4503,2025-06-13,2025-07-06
+65,Salsa de merkén 150 g,Salsas,24,14,4121,2025-06-08,2025-06-27
+66,Miel de tineo 500 g,Mieles,23,11,6427,2025-06-19,2025-07-06
+67,Infusión de boldo (20 bolsas),Infusiones,29,15,2888,2025-06-12,2025-07-18
+68,Miel de tineo 500 g,Mieles,38,5,5622,2025-06-19,2025-06-25
+69,Pebre de avellana 150 g,Salsas,32,12,4252,2025-06-14,2025-07-16
+70,Mix de setas deshidratadas 50 g,Deshidratados,8,6,4727,2025-07-11,2025-07-16
+71,Peras al vino,Conservas,22,8,3907,2025-06-10,2025-06-11
+72,Mermelada de frambuesa,Mermeladas,33,14,3074,2025-06-30,2025-07-13
+73,Avellanas tostadas 200 g,Snacks,34,11,3449,2025-06-10,2025-06-10
+74,Conserva de piñones,Conservas,17,7,4560,2025-06-30,2025-07-01
+75,Frutos secos mix 250 g,Snacks,32,7,3675,2025-07-04,2025-07-12
+76,Aceite de murta 250 ml,Aceites,35,11,8122,2025-06-29,2025-07-04
+77,Tomates deshidratados 80 g,Deshidratados,19,8,5060,2025-07-11,2025-07-15
+78,Mix de setas deshidratadas 50 g,Deshidratados,20,12,4279,2025-06-19,2025-06-26
+79,Miel de tineo 500 g,Mieles,23,13,5165,2025-06-09,2025-06-18
+80,Avellanas tostadas 200 g,Snacks,12,8,3265,2025-06-27,2025-07-10
+81,Aceite de murta 250 ml,Aceites,29,5,7423,2025-06-27,2025-07-09
+82,Mermelada de mora,Mermeladas,33,5,3360,2025-06-20,2025-07-14
+83,Pebre de avellana 150 g,Salsas,37,13,4417,2025-06-15,2025-07-16
+84,Avellanas tostadas 200 g,Snacks,30,12,3229,2025-06-25,2025-07-05
+85,Salsa de merkén 150 g,Salsas,32,7,4437,2025-07-05,2025-07-05
+86,Salsa de merkén 150 g,Salsas,8,6,4238,2025-06-09,2025-07-08
+87,Infusión de boldo (20 bolsas),Infusiones,19,11,2835,2025-06-14,2025-07-13
+88,Aceite de murta 250 ml,Aceites,27,9,7863,2025-06-17,2025-06-22
+89,Mix de setas deshidratadas 50 g,Deshidratados,37,5,5174,2025-06-23,2025-06-30
+90,Castañas en almíbar,Conservas,4,3,3908,2025-06-02,2025-07-11
+91,Infusión de boldo (20 bolsas),Infusiones,11,9,3185,2025-06-08,2025-07-14
+92,Avellanas tostadas 200 g,Snacks,19,10,3371,2025-07-09,2025-07-18
+93,Peras al vino,Conservas,22,6,4685,2025-06-02,2025-06-21
+94,Pebre de avellana 150 g,Salsas,15,6,4406,2025-07-11,2025-07-14
+95,Chutney de manzana,Conservas,10,8,3584,2025-06-23,2025-07-10
+96,Pebre de avellana 150 g,Salsas,7,5,4463,2025-06-22,2025-06-22
+97,Pebre de avellana 150 g,Salsas,9,7,4170,2025-07-11,2025-07-18
+98,Infusión de menta (20 bolsas),Infusiones,14,13,3166,2025-06-18,2025-07-07
+99,Tomates deshidratados 80 g,Deshidratados,30,14,4474,2025-06-21,2025-07-18
+100,Frutos secos mix 250 g,Snacks,20,12,3449,2025-06-30,2025-07-18
